@@ -32,3 +32,4 @@ export function getUser(chatId: string): UserData | undefined {
 export function getAllUsers() {
   return loadDB();
 }
+

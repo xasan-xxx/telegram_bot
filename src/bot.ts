@@ -15,7 +15,7 @@ bot.start(async (ctx) => {
 
 // Tasdiqlash tugmasi
 bot.action('confirm', async (ctx) => {
-  const chatId = ctx.chat?.id.toString();
+  const chatId = ctx.chat?.id.toString(); // chatId string bo‘lib qoldi
   const username = ctx.from?.username || 'nomalum';
 
   // Adminga habar
